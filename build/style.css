@@ -75,14 +75,3 @@ body {
   grid-column: 2;
   grid-row: 2;
 }
-
-.profile-pic {
-    height: 150px;
-    width: 150px;
-    float: left;
-    padding-right: 10px;
-}
-
-#blue {
-    color: blue;
-}

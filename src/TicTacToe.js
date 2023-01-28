@@ -8,11 +8,13 @@ const board = [
 ];
 
 const TicTacToe = () => {
+  let i = 0;
   return <div className="tic-tac-toe">
     <h1>Tic-Tac-Toe</h1>
     <div className='board'>{
         board.map((item, index) => {
-            return <div className='cell'>
+            i++;
+            return <div className='cell' key={i}>
                 <span key={index}>{board[index]}</span>
                 </div>
         })
